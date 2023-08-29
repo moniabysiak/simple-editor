@@ -1,1 +1,0 @@
-{"mappings":"AAAA,aAAa,QAAQ,QAAQ;AAE7B,MAAM,cAAc,aAAa,QAAQ;AAEzC,QAAQ,IAAI","sources":["src/js/storage.js"],"sourcesContent":["localStorage.setItem('name', 'Monia')\r\n\r\nconst fromStorage = localStorage.getItem('name')\r\n\r\nconsole.log(fromStorage)"],"names":[],"version":3,"file":"index.fc422acb.js.map","sourceRoot":"/__parcel_source_root/"}
