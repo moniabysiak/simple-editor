@@ -15,13 +15,15 @@ function saveText() {
 
 buttonSave.addEventListener('click', saveText)
 
-function loadText() {
-    let yourText = localStorage.getItem('savedText');   
-    textarea.innerHTML = yourText;
-}
+// function loadText() {
+//     let yourText = localStorage.getItem('savedText');   
+//     textarea.innerHTML = yourText;
+// }
 
-buttonLoad.addEventListener('click', loadText);
-textarea.innerHTML = yourText;
+// buttonLoad.addEventListener('click', loadText);
+    
+buttonLoad.addEventListener('click', textarea.innerHTML = localStorage.getItem('savedText'))
+
 
 
 

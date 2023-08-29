@@ -9,11 +9,11 @@ function saveText() {
     localStorage.setItem("savedText", textarea.value);
 }
 buttonSave.addEventListener("click", saveText);
-function loadText() {
-    let yourText1 = localStorage.getItem("savedText");
-    textarea.innerHTML = yourText1;
-}
-buttonLoad.addEventListener("click", loadText);
-textarea.innerHTML = yourText;
+// function loadText() {
+//     let yourText = localStorage.getItem('savedText');   
+//     textarea.innerHTML = yourText;
+// }
+// buttonLoad.addEventListener('click', loadText);
+buttonLoad.addEventListener("click", textarea.innerHTML = localStorage.getItem("savedText"));
 
 //# sourceMappingURL=index.aa69868b.js.map
