@@ -13,6 +13,6 @@ function loadText() {
     let yourText = localStorage.getItem("savedText");
     textarea.value = yourText;
 }
-buttonLoad.addEventListener("click", loadText); // buttonLoad.addEventListener('click', textarea.innerHTML = localStorage.getItem('savedText'))
+buttonLoad.addEventListener("click", loadText);
 
 //# sourceMappingURL=index.aa69868b.js.map

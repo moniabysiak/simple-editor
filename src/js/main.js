@@ -22,7 +22,7 @@ function loadText() {
 
 buttonLoad.addEventListener('click', loadText);
     
-// buttonLoad.addEventListener('click', textarea.innerHTML = localStorage.getItem('savedText'))
+
 
 
 
