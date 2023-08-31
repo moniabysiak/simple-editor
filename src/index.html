@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,30 +13,38 @@
     <meta property="og:description" content="Mój prosty edytor">
     <meta property="og:url" content="https://simple-editor-mb.netlify.app">
     <meta property="og:image" content="./og.png">
-    
+
 </head>
-<body class="bg-pink">
+
+<body class="bg-pink flex min-h-screen justify-center items-center flex-col">
     <h1 class=" p-4 first-line:text-2xl font-bold">
         Mój prosty edytor
     </h1>
     <section>
         <form>
-            <div class="p-4 w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
+            <div
+                class="p-4 w-full border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
                 <div class=" bg-white rounded-t-lg dark:bg-gray-800">
                     <label for="comment" class="sr-only">Your comment</label>
-                    <textarea id="comment" rows="4" class="textarea--js w-full p-4 text-sm text-black bg-pink-200 border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder ="Napisz co chcesz... 😊"></textarea>
+                    <textarea id="comment" rows="4"
+                        class="textarea--js w-full h-52 p-4 text-sm text-black bg-pink-200 border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"
+                        placeholder="Napisz co chcesz... 😊"></textarea>
                 </div>
-                <div class="flex items-center justify-end px-3 py-2 gap-3 border-t dark:border-gray-600">
-                    <button type="button" class="check--js text-white bg-gray-700 first-letter:inline-flex items-center py-2.5 px-4 text-xs font-medium text-center rounded-lg  hover:bg-pink-700">Sprawdź</button>
-                    <button type="button" class="button--load--js inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-gray-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-pink-700">
+                <div class="flex items-center justify-between py-2 gap-2 dark:border-gray-600">
+                    <button type="button"
+                        class="check--js text-white bg-gray-700 first-letter:inline-flex items-center py-2 px-3 text-xs font-medium text-center rounded-lg  hover:bg-pink-700">Sprawdź</button>
+                    <button type="button"
+                        class="button--load--js inline-flex items-center py-2 px-3 text-xs font-medium text-center text-white bg-gray-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-pink-700">
                         Wczytaj
                     </button>
-                    <button type="submit" class="button--save--js inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-gray-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-pink-700">
+                    <button type="submit"
+                        class="button--save--js inline-flex items-center py-2 px-3 text-xs font-medium text-center text-white bg-gray-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-pink-700">
                         Zapisz
                     </button>
-                    <div class="flex pl-0 space-x-1 sm:pl-2">
+                    
     </section>
 </body>
 <script defer src="js/main.js"></script>
 <script defer src="js/storage.js"></script>
+
 </html>
